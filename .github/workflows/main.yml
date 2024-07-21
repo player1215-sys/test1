@@ -16,7 +16,7 @@ jobs:
       - name: cek versi python
         run: python --version
       - name: running sample.py
-        run: sample.py
+        run: python sample.py
         
         
       
