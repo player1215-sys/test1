@@ -13,4 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: cek lokasi current dir
         run: pwd
+      - name: cek versi python
+        run: python --version
+        
       
